@@ -1,0 +1,20 @@
+.infoPanel{
+    margin-top: 10%;
+    margin-bottom: 1em;
+
+    .stationImage{
+        align-items: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        //width: 50%;
+        @media only screen and (max-width: 600px) {
+            height: 150px;
+        }
+    }
+    .stationTitle{
+        @media only screen and (max-width: 600px) {
+            font-size: 20px;
+        }
+    }
+}
